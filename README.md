@@ -1,4 +1,1 @@
-# APC AP7902B powerman Drivers
-Just some slightly modified drivers for the APC AP7902B. These drivers are used on an Opengear CM71xx. 
-
-
+Slightly modified 8-port APC AP7900B drivers that allow the 16-port AP7902B to properly function on the CM71xx (and other devices that use powerman, assumedly). Without these drivers, the CM will only pick up 8 of the 16 ports on the device.
